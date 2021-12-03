@@ -1,15 +1,25 @@
-  {
-      "name": "app.js",
-      "version": "1.0.0",
-      "description": "archivo de prueba de node",
-      "main": "app.js",
-      "scripts": {
-          "test": "echo \"Error: no test specified\" && exit 1"
-      },
-      "author": "RPP",
-      "license": "ISC",
-      "dependencies": {
-          "express": "^4.17.1",
-          "pug": "^2.0.3"
-      }
-  }
+{
+    "name": "introcuccion_nodejs",
+    "version": "1.0.0",
+    "description": "Curso introduccion a nodejs",
+    "main": "app.js",
+    "dependencies": {
+        "express": "^4.16.4",
+        "pug": "^2.0.3"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/perezp26/introduccionnodejs.git"
+    },
+    "author": "Raul Perez",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/perezp26/introduccionnodejs/issues"
+    },
+    "homepage": "https://github.com/perezp26/introduccionnodejs#readme"
+}
